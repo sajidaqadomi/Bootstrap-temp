@@ -1,0 +1,71 @@
+.upper-bar,
+.overview-btn:hover,
+.contact .link:hover,
+.pricing .row a:hover {
+    background-color: var(--main-color) !important;
+}
+
+.navbar-brand .crop,
+.navbar-expand-lg .nav-link:hover,
+.navbar-expand-lg .nav-item.active .nav-link,
+.over-item .titel,
+.stats-desc,
+footer .site-info .crop,
+footer .helpful-link .list-unstyled li a:hover,
+.post .card-link {
+    color: var(--sub-color) !important;
+}
+
+.navbar-brand .elite,
+.navbar-expand-lg .link-item,
+.dropdown-menu .dropdown-item,
+.nav-item .dropdown-item .navbar-toggler .navbar-toggler-icon,
+.features-titel,
+.stats-details,
+.stats .icon,
+footer .site-info .elite,
+footer a,
+footer .titel,
+footer .site-info .link:before,
+footer .helpful-link .list-unstyled li:before,
+footer .helpful-link .list-unstyled li a {
+    color: var(--main-color) !important;
+}
+
+a.upper-get:hover,
+.nav-item .dropdown-item:hover,
+.carousel-desc .highlighted,
+.features .icon,
+.overview-btn,
+.featured-list .list-item.active button,
+.featured-list .list-item:hover button,
+.contact {
+    color: white !important;
+    background-color: var(--sub-color) !important;
+}
+
+a.upper-get:hover,
+.choose-link {
+    background-color: var(--sub-color) !important;
+}
+
+.carousel-item,
+.testimonial,
+.testimonial .carousel-caption .img1,
+.choose .img1 {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-inner .overlay,
+.testimonial .overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, .6);
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
